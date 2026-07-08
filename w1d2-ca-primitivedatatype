@@ -1,0 +1,29 @@
+//firstname
+let firstname='Swapna'
+console.log(firstname);
+console.log(typeof firstname);
+
+//companyname
+let companyname='Infosys'
+console.log(companyname);
+console.log(typeof companyname);
+
+//mobilenumber 
+let mobilenumber=1234567890
+console.log(mobilenumber);
+console.log(typeof mobilenumber);
+
+//isAutomation
+let isAutomation=true
+console.log(isAutomation);
+console.log(typeof isAutomation);
+
+//hasplaywright
+let hasplaywright
+console.log(hasplaywright);
+console.log(typeof hasplaywright);
+
+
+
+
+
