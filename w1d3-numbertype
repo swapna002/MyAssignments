@@ -1,0 +1,15 @@
+function numbertype(a){
+    if(a>0)
+    {
+        console.log(a,' is positive');
+    }
+    else if (a==0)
+    {
+        console.log(a,' is zero')
+    }
+    else if (a<0)
+    {
+        console.log(a,' is negative')
+    }
+}
+numbertype(5)

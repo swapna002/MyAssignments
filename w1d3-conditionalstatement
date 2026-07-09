@@ -1,0 +1,27 @@
+
+function launchbrowser(a){
+    if(a=='chrome')
+    {
+        console.log('Welcome to chrome');
+    }
+    else (a=='edge')
+    {
+        console.log('Welcome to Edge')
+    }
+}
+function runtest(testtype){
+    switch (testtype){
+        case 'sanity':
+        console.log('Testype is sanity');
+        break;
+        case'regression':
+        console.log('Testtype is regression');
+        break;
+        default:
+            console.log('smoke test');
+            break;
+    }
+
+}
+launchbrowser('edge')
+runtest('sanity')
